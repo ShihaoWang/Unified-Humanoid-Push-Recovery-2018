@@ -1,0 +1,130 @@
+1
+ 
+ SNMEMA EXIT 100 -- finished successfully
+ SNMEMA INFO 104 -- memory requirements estimated
+
+ Nonzero derivs  Jij       107
+ Non-constant    Jij's     107     Constant Jij's           0
+1
+ 
+ SNJAC  EXIT 100 -- finished successfully
+ SNJAC  INFO 102 -- Jacobian structure estimated
+1
+ 
+ SNMEMA EXIT 100 -- finished successfully
+ SNMEMA INFO 104 -- memory requirements estimated
+
+ 
+ ===>  WARNING - Row         4 of the Jacobian is empty.
+ ===>  WARNING - Row         5 of the Jacobian is empty.
+ ===>  WARNING - Row         6 of the Jacobian is empty.
+ ===>  WARNING - Row         7 of the Jacobian is empty.
+ ===>  WARNING - Row        12 of the Jacobian is empty.
+ ===>  WARNING - Row        13 of the Jacobian is empty.
+ ===>  WARNING - Row        14 of the Jacobian is empty.
+ ===>  WARNING - Row        15 of the Jacobian is empty.
+ ===>  WARNING - Row        16 of the Jacobian is empty.
+ ===>  WARNING - Row        17 of the Jacobian is empty.
+ ===>  WARNING - Row        18 of the Jacobian is empty.
+ ===>  WARNING - Row        19 of the Jacobian is empty.
+1
+ 
+1
+ 
+
+ 
+ The user has defined       0   out of     107   first  derivatives
+1
+ 
+1
+ 
+ SNOPTA EXIT   0 -- finished successfully
+ SNOPTA INFO   1 -- optimality conditions satisfied
+
+ Problem name                 Default_
+ No. of iterations                  41   Objective value      3.4369904499E-09
+ No. of major iterations            11   Linear objective     0.0000000000E+00
+ Penalty parameter           8.673E-03   Nonlinear objective  3.4369904499E-09
+ No. of calls to funobj            418   No. of calls to funcon            418
+ Calls with modes 1,2 (known g)     13   Calls with modes 1,2 (known g)     13
+ Calls for forward differencing    338   Calls for forward differencing    338
+ Calls for central differencing     52   Calls for central differencing     52
+ No. of superbasics                 19   No. of basic nonlinears             6
+ No. of degenerate steps             2   Percentage                       4.88
+ Max x                      18 2.7E+00   Max pi                      9 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             7 1.2E-06
+ Nonlinear constraint violn    1.0E-08
+1
+ 
+ Name           Default_                 Objective Value      3.4369904499E-09
+
+ Status         Optimal Soln             Iteration     41    Superbasics    19
+
+ Objective               (Min)
+ RHS
+ Ranges
+ Bounds
+
+ Section 1 - Rows
+
+  Number  ...Row.. State  ...Activity...  Slack Activity  ..Lower Limit.  ..Upper Limit.  .Dual Activity    ..i
+ 
+      27  r      1    BS          .               .                None            None         -1.0          1
+      28  r      2    EQ         0.00000         0.00000          .               .              0.00020      2
+      29  r      3    EQ         0.00000         0.00000          .               .             -0.00026      3
+      30  r      4 D  BS          .               .               .               .               .           4
+      31  r      5 D  BS          .               .               .               .               .           5
+      32  r      6 D  BS          .               .               .               .               .           6
+      33  r      7 D  BS          .               .               .               .               .           7
+      34  r      8 A  EQ         0.00000         0.00000          .               .              0.00000      8
+      35  r      9 A  EQ         0.00000         0.00000          .               .             -0.00000      9
+      36  r     10 D  BS         0.00000         0.00000          .               .               .          10
+      37  r     11 A  EQ         0.00000         0.00000          .               .              0.00000     11
+      38  r     12 D  BS          .               .               .               .               .          12
+      39  r     13 D  BS          .               .               .               .               .          13
+      40  r     14 D  BS          .               .               .               .               .          14
+      41  r     15 D  BS          .               .               .               .               .          15
+      42  r     16 D  BS          .               .               .               .               .          16
+      43  r     17 D  BS          .               .               .               .               .          17
+      44  r     18 D  BS          .               .               .               .               .          18
+      45  r     19 D  BS          .               .               .               .               .          19
+      46  r     20 D  BS         0.00000         0.00000          .                None           .          20
+      47  r     21 A  LL        -0.00000        -0.00000          .                None          0.00000     21
+1
+ 
+ Section 2 - Columns
+
+  Number  .Column. State  ...Activity...  .Obj Gradient.  ..Lower Limit.  ..Upper Limit.  Reduced Gradnt    m+j
+ 
+       1  x      1 A  FR        -0.04640        -0.00000           None            None         -0.00000     22
+       2  x      2    BS         0.74637        -0.00006           None            None          0.00000     23
+       3  x      3   SBS        -0.16922        -0.00005        -3.14159         3.14159         0.00000     24
+       4  x      4   SBS         0.02578        -0.00005        -2.35620         0.73300        -0.00000     25
+       5  x      5   SBS         0.18587        -0.00005          .              2.61800         0.00000     26
+       6  x      6    BS        -0.04243        -0.00005        -1.30000         0.73300         0.00000     27
+       7  x      7   SBS        -1.00440        -0.00000        -2.35620         0.73300        -0.00000     28
+       8  x      8   SBS         0.15040        -0.00000          .              2.61800        -0.00000     29
+       9  x      9   SBS         0.27940        -0.00000        -1.30000         0.73300        -0.00000     30
+      10  x     10   SBS        -0.66540        -0.00000        -3.14000         1.04700        -0.00000     31
+      11  x     11   SBS        -0.62730        -0.00000        -2.39100          .             -0.00000     32
+      12  x     12   SBS         0.69990        -0.00000        -3.14000         1.04700        -0.00000     33
+      13  x     13   SBS        -0.29150        -0.00000        -2.39100          .             -0.00000     34
+      14  x     14    BS         1.89612          .                None            None         -0.00000     35
+      15  x     15    BS         0.10891          .                None            None         -0.00000     36
+      16  x     16    BS         1.83794          .                None            None         -0.00000     37
+      17  x     17   SBS         1.31265          .             -3.00000         3.00000         0.00000     38
+      18  x     18   SBS        -0.43217          .             -3.00000         3.00000         0.00000     39
+      19  x     19    BS        -2.71842          .             -3.00000         3.00000        -0.00000     40
+      20  x     20   SBS        -0.89109          .             -3.00000         3.00000        -0.00000     41
+      21  x     21   SBS         2.24430          .             -3.00000         3.00000        -0.00000     42
+      22  x     22   SBS        -1.27680          .             -3.00000         3.00000        -0.00000     43
+      23  x     23   SBS         1.11607          .             -3.00000         3.00000         0.00000     44
+      24  x     24   SBS        -1.84407          .             -3.00000         3.00000        -0.00000     45
+      25  x     25   SBS        -1.14485          .             -3.00000         3.00000         0.00000     46
+      26  x     26   SBS        -1.22711          .             -3.00000         3.00000         0.00000     47
+ 
+ Time for MPS input                             0.00 seconds
+ Time for solving problem                       0.01 seconds
+ Time for solution output                       0.00 seconds
+ Time for constraint functions                  0.01 seconds
+ Time for objective function                    0.00 seconds
