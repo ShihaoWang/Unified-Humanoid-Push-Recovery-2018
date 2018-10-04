@@ -5,10 +5,11 @@
 #include <iostream>
 #include "snopt.hh"
 #include "Unified_Header.h"
-#include "snoptProblem.hh"
+
 #include <fstream>
 #include <cmath>
 #include <dlib/matrix.h>
+#include "snoptProblem.hh"
 #include <algorithm>
 
 // Pre-define of the bounds

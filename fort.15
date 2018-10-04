@@ -124,7 +124,415 @@
       26  x     26   SBS        -1.22711          .             -3.00000         3.00000         0.00000     47
  
  Time for MPS input                             0.00 seconds
- Time for solving problem                       0.01 seconds
+ Time for solving problem                       0.02 seconds
  Time for solution output                       0.00 seconds
- Time for constraint functions                  0.01 seconds
+ Time for constraint functions                  0.02 seconds
  Time for objective function                    0.00 seconds
+1
+ 
+ SNMEMA EXIT 100 -- finished successfully
+ SNMEMA INFO 104 -- memory requirements estimated
+
+ Nonzero derivs  Jij       123
+ Non-constant    Jij's     121     Constant Jij's           2
+1
+ 
+ SNJAC  EXIT 100 -- finished successfully
+ SNJAC  INFO 102 -- Jacobian structure estimated
+1
+ 
+ SNMEMA EXIT 100 -- finished successfully
+ SNMEMA INFO 104 -- memory requirements estimated
+
+ 
+ ===>  WARNING - Row         4 of the Jacobian is empty.
+ ===>  WARNING - Row         5 of the Jacobian is empty.
+ ===>  WARNING - Row         6 of the Jacobian is empty.
+ ===>  WARNING - Row         7 of the Jacobian is empty.
+ ===>  WARNING - Row        12 of the Jacobian is empty.
+ ===>  WARNING - Row        13 of the Jacobian is empty.
+ ===>  WARNING - Row        14 of the Jacobian is empty.
+ ===>  WARNING - Row        15 of the Jacobian is empty.
+ ===>  WARNING - Row        16 of the Jacobian is empty.
+ ===>  WARNING - Row        17 of the Jacobian is empty.
+ ===>  WARNING - Row        18 of the Jacobian is empty.
+ ===>  WARNING - Row        19 of the Jacobian is empty.
+ ===>  WARNING - Row        20 of the Jacobian is empty.
+ ===>  WARNING - Row        21 of the Jacobian is empty.
+ ===>  WARNING - Row        36 of the Jacobian is empty.
+ ===>  WARNING - Row        37 of the Jacobian is empty.
+ ===>  WARNING - Row        38 of the Jacobian is empty.
+ ===>  WARNING - Row        39 of the Jacobian is empty.
+ ===>  WARNING - Row        40 of the Jacobian is empty.
+ ===>  WARNING - Row        41 of the Jacobian is empty.
+ ===>  WARNING - Row        42 of the Jacobian is empty.
+ ===>  WARNING - Row        43 of the Jacobian is empty.
+1
+ 
+1
+ 
+
+ 
+ The user has defined       0   out of     121   first  derivatives
+1
+ 
+1
+ 
+ SNOPTA EXIT   0 -- finished successfully
+ SNOPTA INFO   1 -- optimality conditions satisfied
+
+ Problem name                 Seed_Con
+ No. of iterations                  98   Objective value      1.4105682414E-13
+ No. of major iterations            60   Linear objective     0.0000000000E+00
+ Penalty parameter           0.000E+00   Nonlinear objective  1.4105682414E-13
+ No. of calls to funobj           1721   No. of calls to funcon           1721
+ Calls with modes 1,2 (known g)     61   Calls with modes 1,2 (known g)     61
+ Calls for forward differencing   1500   Calls for forward differencing   1500
+ Calls for central differencing    100   Calls for central differencing    100
+ No. of superbasics                 20   No. of basic nonlinears             5
+ No. of degenerate steps             2   Percentage                       2.04
+ Max x       (scaled)        5 8.7E-01   Max pi      (scaled)       21 1.0E+00
+ Max x                       5 8.7E-01   Max pi                     21 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)       14 2.2E-06
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            14 2.2E-06
+ Nonlinear constraint violn    5.4E-11
+1
+ 
+ Name           Seed_Con                 Objective Value      1.4105682414E-13
+
+ Status         Optimal Soln             Iteration     98    Superbasics    20
+
+ Objective               (Min)
+ RHS
+ Ranges
+ Bounds
+
+ Section 1 - Rows
+
+  Number  ...Row.. State  ...Activity...  Slack Activity  ..Lower Limit.  ..Upper Limit.  .Dual Activity    ..i
+ 
+      27  r      1    BS          .               .                None            None         -1.0          1
+      28  r      2 A  EQ         0.00000         0.00000          .               .              0.00000      2
+      29  r      3 D  BS         0.00000         0.00000          .               .               .           3
+      30  r      4 D  BS          .               .               .               .               .           4
+      31  r      5 D  BS          .               .               .               .               .           5
+      32  r      6 D  BS          .               .               .               .               .           6
+      33  r      7 D  BS          .               .               .               .               .           7
+      34  r      8 A  EQ         0.00000         0.00000          .               .              0.00000      8
+      35  r      9 A  EQ        -0.00000        -0.00000          .               .             -0.00000      9
+      36  r     10 D  BS         0.00000         0.00000          .               .               .          10
+      37  r     11 A  EQ        -0.00000        -0.00000          .               .              0.00000     11
+      38  r     12 D  BS          .               .               .               .               .          12
+      39  r     13 D  BS          .               .               .               .               .          13
+      40  r     14 D  BS          .               .               .               .               .          14
+      41  r     15 D  BS          .               .               .               .               .          15
+      42  r     16 D  BS          .               .               .               .               .          16
+      43  r     17 D  BS          .               .               .               .               .          17
+      44  r     18 D  BS          .               .               .               .               .          18
+      45  r     19 D  BS          .               .               .               .               .          19
+      46  r     20 D  BS          .               .               .                None           .          20
+      47  r     21 D  BS          .               .               .                None           .          21
+      48  r     22    BS         0.28578         0.28578          .                None           .          22
+      49  r     23    BS         0.16389         0.16389          .                None           .          23
+      50  r     24    BS         0.64381         0.64381          .                None           .          24
+      51  r     25    BS         0.60808         0.60808          .                None           .          25
+      52  r     26    BS         0.39889         0.39889          .                None           .          26
+      53  r     27    BS         0.51026         0.51026          .                None           .          27
+      54  r     28    BS         1.02326         1.02326          .                None           .          28
+      55  r     29    BS         1.04980         1.04980          .                None           .          29
+      56  r     30    BS         0.71411         0.71411          .                None           .          30
+      57  r     31    BS         1.41387         1.41387          .                None           .          31
+      58  r     32 A  EQ         0.00000         0.00000          .               .               .          32
+      59  r     33 D  BS         0.00000         0.00000          .               .               .          33
+      60  r     34 D  BS         0.00000         0.00000          .               .               .          34
+      61  r     35 A  EQ        -0.00000        -0.00000          .               .              0.00000     35
+      62  r     36 D  BS          .               .               .               .               .          36
+      63  r     37 D  BS          .               .               .               .               .          37
+      64  r     38 D  BS          .               .               .               .               .          38
+      65  r     39 D  BS          .               .               .               .               .          39
+      66  r     40 D  BS          .               .               .               .               .          40
+      67  r     41 D  BS          .               .               .               .               .          41
+      68  r     42 D  BS          .               .               .               .               .          42
+      69  r     43 D  BS          .               .               .               .               .          43
+1
+ 
+ Section 2 - Columns
+
+  Number  .Column. State  ...Activity...  .Obj Gradient.  ..Lower Limit.  ..Upper Limit.  Reduced Gradnt    m+j
+ 
+       1  x      1    BS        -0.06599          .                None            None           .          44
+       2  x      2    BS         0.73911          .                None            None          0.00000     45
+       3  x      3   SBS        -0.02631         0.00000        -3.14159         3.14159         0.00000     46
+       4  x      4   SBS        -0.21962        -0.00000        -2.35620         0.73300         0.00000     47
+       5  x      5   SBS         0.32866         0.00000          .              2.61800         0.00000     48
+       6  x      6    BS        -0.08273        -0.00000        -1.30000         0.73300         0.00000     49
+       7  x      7   SBS        -0.86650        -0.00000        -2.35620         0.73300        -0.00000     50
+       8  x      8   SBS         0.01710        -0.00000          .              2.61800        -0.00000     51
+       9  x      9   SBS         0.30322        -0.00000        -1.30000         0.73300        -0.00000     52
+      10  x     10   SBS        -0.24793         0.00000        -3.14000         1.04700         0.00000     53
+      11  x     11   SBS        -0.29328         0.00000        -2.39100          .              0.00000     54
+      12  x     12   SBS         0.56867         0.00000        -3.14000         1.04700         0.00000     55
+      13  x     13   SBS        -0.35017         0.00000        -2.39100          .              0.00000     56
+      14  x     14    BS        -0.00000        -0.00000           None            None         -0.00000     57
+      15  x     15    BS        -0.00000        -0.00000           None            None         -0.00000     58
+      16  x     16   SBS         0.00000        -0.00000           None            None         -0.00000     59
+      17  x     17    BS        -0.00000        -0.00000        -3.00000         3.00000        -0.00000     60
+      18  x     18   SBS         0.00000        -0.00000        -3.00000         3.00000        -0.00000     61
+      19  x     19   SBS         0.00000         0.00000        -3.00000         3.00000        -0.00000     62
+      20  x     20   SBS        -0.00000        -0.00000        -3.00000         3.00000        -0.00000     63
+      21  x     21   SBS        -0.00000        -0.00000        -3.00000         3.00000        -0.00000     64
+      22  x     22   SBS        -0.00000        -0.00000        -3.00000         3.00000        -0.00000     65
+      23  x     23   SBS        -0.00000        -0.00000        -3.00000         3.00000        -0.00000     66
+      24  x     24   SBS        -0.00000        -0.00000        -3.00000         3.00000        -0.00000     67
+      25  x     25   SBS        -0.00000        -0.00000        -3.00000         3.00000        -0.00000     68
+      26  x     26   SBS        -0.00000        -0.00000        -3.00000         3.00000        -0.00000     69
+ 
+ Time for MPS input                             0.00 seconds
+ Time for solving problem                       0.08 seconds
+ Time for solution output                       0.00 seconds
+ Time for constraint functions                  0.06 seconds
+ Time for objective function                    0.00 seconds
+1
+ 
+ SNMEMA EXIT 100 -- finished successfully
+ SNMEMA INFO 104 -- memory requirements estimated
+
+ Nonzero derivs  Jij     24140
+ Non-constant    Jij's   24002     Constant Jij's         138
+1
+ 
+ SNJAC  EXIT 100 -- finished successfully
+ SNJAC  INFO 102 -- Jacobian structure estimated
+1
+ 
+ SNMEMA EXIT 100 -- finished successfully
+ SNMEMA INFO 104 -- memory requirements estimated
+
+ 
+ ===>  WARNING - Row       536 of the Jacobian is empty.
+ ===>  WARNING - Row       537 of the Jacobian is empty.
+ ===>  WARNING - Row       538 of the Jacobian is empty.
+ ===>  WARNING - Row       539 of the Jacobian is empty.
+ ===>  WARNING - Row       540 of the Jacobian is empty.
+ ===>  WARNING - Row       541 of the Jacobian is empty.
+ ===>  WARNING - Row       542 of the Jacobian is empty.
+ ===>  WARNING - Row       543 of the Jacobian is empty.
+ ===>  WARNING - Row       548 of the Jacobian is empty.
+ ===>  WARNING - Row       549 of the Jacobian is empty.
+ ===>  WARNING - Row       550 of the Jacobian is empty.
+ ===>  WARNING - Row       551 of the Jacobian is empty.
+ ===>  WARNING - Row       552 of the Jacobian is empty.
+ ===>  WARNING - Row       553 of the Jacobian is empty.
+ ===>  WARNING - Row       554 of the Jacobian is empty.
+ ===>  WARNING - Row       555 of the Jacobian is empty.
+ ===>  WARNING - Row       560 of the Jacobian is empty.
+ ===>  WARNING - Row       561 of the Jacobian is empty.
+ ===>  WARNING - Row       562 of the Jacobian is empty.
+ ===>  WARNING - Row       563 of the Jacobian is empty.
+ ===>  WARNING - Row       564 of the Jacobian is empty.
+ ===>  WARNING - Row       565 of the Jacobian is empty.
+ ===>  WARNING - Row       566 of the Jacobian is empty.
+ ===>  WARNING - Row       567 of the Jacobian is empty.
+ ===>  WARNING - Row       572 of the Jacobian is empty.
+ ===>  WARNING - Row       573 of the Jacobian is empty.
+ ===>  WARNING - Row       574 of the Jacobian is empty.
+ ===>  WARNING - Row       575 of the Jacobian is empty.
+ ===>  WARNING - Row       576 of the Jacobian is empty.
+ ===>  WARNING - Row       577 of the Jacobian is empty.
+ ===>  WARNING - Row       578 of the Jacobian is empty.
+ ===>  WARNING - Row       579 of the Jacobian is empty.
+ ===>  WARNING - Row       584 of the Jacobian is empty.
+ ===>  WARNING - Row       585 of the Jacobian is empty.
+ ===>  WARNING - Row       586 of the Jacobian is empty.
+ ===>  WARNING - Row       587 of the Jacobian is empty.
+ ===>  WARNING - Row       588 of the Jacobian is empty.
+ ===>  WARNING - Row       589 of the Jacobian is empty.
+ ===>  WARNING - Row       590 of the Jacobian is empty.
+ ===>  WARNING - Row       591 of the Jacobian is empty.
+ ===>  WARNING - Row       596 of the Jacobian is empty.
+ ===>  WARNING - Row       597 of the Jacobian is empty.
+ ===>  WARNING - Row       598 of the Jacobian is empty.
+ ===>  WARNING - Row       599 of the Jacobian is empty.
+ ===>  WARNING - Row       600 of the Jacobian is empty.
+ ===>  WARNING - Row       601 of the Jacobian is empty.
+ ===>  WARNING - Row       602 of the Jacobian is empty.
+ ===>  WARNING - Row       603 of the Jacobian is empty.
+ ===>  WARNING - Row       608 of the Jacobian is empty.
+ ===>  WARNING - Row       609 of the Jacobian is empty.
+ ===>  WARNING - Row       610 of the Jacobian is empty.
+ ===>  WARNING - Row       611 of the Jacobian is empty.
+ ===>  WARNING - Row       612 of the Jacobian is empty.
+ ===>  WARNING - Row       613 of the Jacobian is empty.
+ ===>  WARNING - Row       614 of the Jacobian is empty.
+ ===>  WARNING - Row       615 of the Jacobian is empty.
+ ===>  WARNING - Row       620 of the Jacobian is empty.
+ ===>  WARNING - Row       621 of the Jacobian is empty.
+ ===>  WARNING - Row       622 of the Jacobian is empty.
+ ===>  WARNING - Row       623 of the Jacobian is empty.
+ ===>  WARNING - Row       624 of the Jacobian is empty.
+ ===>  WARNING - Row       625 of the Jacobian is empty.
+ ===>  WARNING - Row       626 of the Jacobian is empty.
+ ===>  WARNING - Row       627 of the Jacobian is empty.
+ ===>  WARNING - Row       630 of the Jacobian is empty.
+ ===>  WARNING - Row       631 of the Jacobian is empty.
+ ===>  WARNING - Row       632 of the Jacobian is empty.
+ ===>  WARNING - Row       633 of the Jacobian is empty.
+ ===>  WARNING - Row       634 of the Jacobian is empty.
+ ===>  WARNING - Row       635 of the Jacobian is empty.
+ ===>  WARNING - Row       648 of the Jacobian is empty.
+ ===>  WARNING - Row       649 of the Jacobian is empty.
+ ===>  WARNING - Row       650 of the Jacobian is empty.
+ ===>  WARNING - Row       651 of the Jacobian is empty.
+ ===>  WARNING - Row       652 of the Jacobian is empty.
+ ===>  WARNING - Row       653 of the Jacobian is empty.
+ ===>  WARNING - Row       666 of the Jacobian is empty.
+ ===>  WARNING - Row       667 of the Jacobian is empty.
+ ===>  WARNING - Row       668 of the Jacobian is empty.
+ ===>  WARNING - Row       669 of the Jacobian is empty.
+ ===>  WARNING - Row       670 of the Jacobian is empty.
+ ===>  WARNING - Row       671 of the Jacobian is empty.
+ ===>  WARNING - Row       684 of the Jacobian is empty.
+ ===>  WARNING - Row       685 of the Jacobian is empty.
+ ===>  WARNING - Row       686 of the Jacobian is empty.
+ ===>  WARNING - Row       687 of the Jacobian is empty.
+ ===>  WARNING - Row       688 of the Jacobian is empty.
+ ===>  WARNING - Row       689 of the Jacobian is empty.
+ ===>  WARNING - Row       702 of the Jacobian is empty.
+ ===>  WARNING - Row       703 of the Jacobian is empty.
+ ===>  WARNING - Row       704 of the Jacobian is empty.
+ ===>  WARNING - Row       705 of the Jacobian is empty.
+ ===>  WARNING - Row       706 of the Jacobian is empty.
+ ===>  WARNING - Row       707 of the Jacobian is empty.
+ ===>  WARNING - Row       720 of the Jacobian is empty.
+ ===>  WARNING - Row       721 of the Jacobian is empty.
+ ===>  WARNING - Row       722 of the Jacobian is empty.
+ ===>  WARNING - Row       723 of the Jacobian is empty.
+ ===>  WARNING - Row       724 of the Jacobian is empty.
+ ===>  WARNING - Row       725 of the Jacobian is empty.
+ ===>  WARNING - Row       738 of the Jacobian is empty.
+ ===>  WARNING - Row       739 of the Jacobian is empty.
+ ===>  WARNING - Row       740 of the Jacobian is empty.
+ ===>  WARNING - Row       741 of the Jacobian is empty.
+ ===>  WARNING - Row       742 of the Jacobian is empty.
+ ===>  WARNING - Row       743 of the Jacobian is empty.
+ ===>  WARNING - Row       756 of the Jacobian is empty.
+ ===>  WARNING - Row       757 of the Jacobian is empty.
+ ===>  WARNING - Row       758 of the Jacobian is empty.
+ ===>  WARNING - Row       759 of the Jacobian is empty.
+ ===>  WARNING - Row       760 of the Jacobian is empty.
+ ===>  WARNING - Row       761 of the Jacobian is empty.
+ ===>  WARNING - Row       772 of the Jacobian is empty.
+ ===>  WARNING - Row       773 of the Jacobian is empty.
+ ===>  WARNING - Row       774 of the Jacobian is empty.
+ ===>  WARNING - Row       775 of the Jacobian is empty.
+ ===>  WARNING - Row       784 of the Jacobian is empty.
+ ===>  WARNING - Row       785 of the Jacobian is empty.
+ ===>  WARNING - Row       786 of the Jacobian is empty.
+ ===>  WARNING - Row       787 of the Jacobian is empty.
+ ===>  WARNING - Row       796 of the Jacobian is empty.
+ ===>  WARNING - Row       797 of the Jacobian is empty.
+ ===>  WARNING - Row       798 of the Jacobian is empty.
+ ===>  WARNING - Row       799 of the Jacobian is empty.
+ ===>  WARNING - Row       808 of the Jacobian is empty.
+ ===>  WARNING - Row       809 of the Jacobian is empty.
+ ===>  WARNING - Row       810 of the Jacobian is empty.
+ ===>  WARNING - Row       811 of the Jacobian is empty.
+ ===>  WARNING - Row       820 of the Jacobian is empty.
+ ===>  WARNING - Row       821 of the Jacobian is empty.
+ ===>  WARNING - Row       822 of the Jacobian is empty.
+ ===>  WARNING - Row       823 of the Jacobian is empty.
+ ===>  WARNING - Row       832 of the Jacobian is empty.
+ ===>  WARNING - Row       833 of the Jacobian is empty.
+ ===>  WARNING - Row       834 of the Jacobian is empty.
+ ===>  WARNING - Row       835 of the Jacobian is empty.
+ ===>  WARNING - Row       844 of the Jacobian is empty.
+ ===>  WARNING - Row       845 of the Jacobian is empty.
+ ===>  WARNING - Row       846 of the Jacobian is empty.
+ ===>  WARNING - Row       847 of the Jacobian is empty.
+ ===>  WARNING - Row       856 of the Jacobian is empty.
+ ===>  WARNING - Row       857 of the Jacobian is empty.
+ ===>  WARNING - Row       858 of the Jacobian is empty.
+ ===>  WARNING - Row       859 of the Jacobian is empty.
+1
+ 
+ Parameters
+ ==========
+
+ Files
+ -----
+ Solution file..........         0       Old basis file ........         0       Standard input.........         5
+ Insert file............         0       New basis file ........         0       (Printer)..............        15
+ Punch file.............         0       Backup basis file......         0       (Specs file)...........         0
+ Load file..............         0       Dump file..............         0       Standard output........         6
+
+ Frequencies
+ -----------
+ Print frequency........       100       Check frequency........        60       Save new basis map.....       100
+ Summary frequency......       100       Factorization frequency        50       Expand frequency.......     10000
+
+ QP subproblems
+ --------------
+ QPsolver Cholesky......
+ Scale tolerance........     0.900       Minor feasibility tol..  1.00E-06       Iteration limit........   2000000
+ Scale option...........         0       Minor optimality  tol..  1.00E-06       Minor print level......         1
+ Crash tolerance........     0.100       Pivot tolerance........  3.25E-11       Partial price..........         1
+ Crash option...........         3       Elastic weight.........  1.00E+04       Prtl price section ( A)       385
+                                         New superbasics........        99       Prtl price section (-I)       989
+
+ The SQP Method
+ --------------
+ Minimize...............                 Cold start.............                 Proximal Point method..         1
+ Nonlinear objectiv vars       104       Objective Row..........         1       Function precision.....  3.00E-13
+ Unbounded step size....  1.00E+20       Superbasics limit......       385       Difference interval....  5.48E-07
+ Unbounded objective....  1.00E+15       Reduced Hessian dim....       385       Central difference int.  6.70E-05
+ Major step limit.......  2.00E+00       Nonderiv.  linesearch..                 Derivative option......         0
+ Major iterations limit.       250       Linesearch tolerance...   0.90000       Verify level...........         0
+ Minor iterations limit.     50000       Penalty parameter......  0.00E+00       Major Print Level......         1
+                                         Major optimality tol...  2.00E-06
+
+ Hessian Approximation
+ ---------------------
+ Limited-Memory Hessian.                 Hessian updates........        10       Hessian frequency......  99999999
+                                                                                 Hessian flush..........  99999999
+
+ Nonlinear constraints
+ ---------------------
+ Nonlinear constraints..       706       Major feasibility tol..  1.00E-06       Violation limit........  1.00E+06
+ Nonlinear Jacobian vars       385
+
+ Miscellaneous
+ -------------
+ LU factor tolerance....      3.99       LU singularity tol.....  3.25E-11       Timing level...........         3
+ LU update tolerance....      3.99       LU swap tolerance......  1.22E-04       Debug level............         0
+ LU partial  pivoting...                 eps (machine precision)  2.22E-16       System information.....        No
+                                                                                 Sticky parameters......        No
+1
+ 
+
+ 
+
+ Matrix statistics
+ -----------------
+               Total      Normal        Free       Fixed     Bounded
+ Rows            989         387           1         370         231
+ Columns         385           0         136           0         249
+
+ No. of matrix elements                24036     Density       6.313
+ Biggest  constant element        1.0000E+00  (excluding fixed columns,
+ Smallest constant element        1.0000E+00   free rows, and RHS)
+
+ No. of objective coefficients             0
+
+ Nonlinear constraints     706     Linear constraints     283
+ Nonlinear variables       385     Linear variables         0
+ Jacobian  variables       385     Objective variables    104
+ Total constraints         989     Total variables        385
+1
+ 
+
+ 
+ The user has defined       0   out of   24002   first  derivatives
+1
+ 
+
+    Itn       LPmult  LPstep   nInf   SumInf             LPobjective   +SBS   -SBS    -BS    Pivot     L+U ncp

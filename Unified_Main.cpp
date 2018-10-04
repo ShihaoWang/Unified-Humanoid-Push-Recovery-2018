@@ -6,7 +6,7 @@
 
 #include "Unified_Header.h"
 #include "snfilewrapper.hh"
-#include "snopt.hh" 
+#include "snopt.hh"
 #include "snoptProblem.hh"
 
 using namespace std;
